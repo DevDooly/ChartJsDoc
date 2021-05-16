@@ -2,15 +2,15 @@
 
 [![slack](https://img.shields.io/badge/slack-chartjs-blue.svg?style=flat-square&maxAge=3600)](https://chartjs-slack.herokuapp.com/)
 
-## Installation
+## 설치
 
-You can get the latest version of Chart.js from [npm](https://npmjs.com/package/chart.js), the [GitHub releases](https://github.com/chartjs/Chart.js/releases/latest), or use a [Chart.js CDN](https://www.jsdelivr.com/package/npm/chart.js). Detailed installation instructions can be found on the [installation](./getting-started/installation.md) page.
+[npm](https://npmjs.com/package/chart.js), [GitHub releases](https://github.com/chartjs/Chart.js/releases/latest) 또는 [Chart.js CDN](https://www.jsdelivr.com/package/npm/chart.js) 에서 최신 버전의 Chart.js 를 가져와 사용할 수 있습니다. 자세한 설치 방법은 [설치 페이지](./getting-started/installation.md)에서 찾을 수 있습니다.
 
-## Creating a Chart
+## 차트 만들기
 
-It's easy to get started with Chart.js. All that's required is the script included in your page along with a single `<canvas>` node to render the chart.
+Chart.js를 만드는 것은 간단합니다. 필요한 것은 차트를 렌더링하기 위한 `<canvas>` 노드와 함께 페이지에 포함 된 스크립트뿐입니다.
 
-In this example, we create a bar chart for a single dataset and render that in our page. You can see all the ways to use Chart.js in the [usage documentation](./getting-started/usage.md).
+아래 예시에서는 단일 데이터 세트에 대한 막대 차트를 만들고 페이지에서 렌더링합니다. [사용 설명서](./getting-started/usage.md)에서 Chart.js를 사용하는 모든 방법을 볼 수 있습니다.
 
 ```html
 <canvas id="myChart" width="400" height="400"></canvas>
@@ -53,14 +53,12 @@ var myChart = new Chart(ctx, {
 </script>
 ```
 
-## Contributing
+## 기여하기
 
-Before submitting an issue or a pull request to the project, please take a moment to look over the [contributing guidelines](./developers/contributing.md) first.
+프로젝트에 이슈 또는 풀 리퀘스트를 제출하기 전에 먼저 [기여 가이드 라인](./developers/contributing.md) 을 살펴 보시기 바랍니다 .
 
-For support using Chart.js, please post questions with the [`chartjs` tag on Stack Overflow](https://stackoverflow.com/questions/tagged/chartjs).
+Chart.js 사용에 대한 지원을 받으려면 [`chartjs` Stack Overflow 태그](https://stackoverflow.com/questions/tagged/chartjs) 를 사용하여 질문을 게시하십시오 .
 
-## License
+## 라이센스
 
-Chart.js is available under the [MIT license](https://opensource.org/licenses/MIT).
-
-Documentation is copyright © 2014-2021 Chart.js contributors.
+Chart.js는 [MIT 라이센스](https://opensource.org/licenses/MIT)를 따릅니다.
